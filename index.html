@@ -1,0 +1,152 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta name="author" content="Dan Fornace">
+	<meta name="description" content="Site for Super Smash Land, a demake of Super Smash brothers made with the specs of an original GameBoy. By Dan Fornace">
+	<meta name="keywords" content="Super Smash Land, Smashland, Dan Fornace, Fornace, Smash Bros"> 
+	<link rel="shortcut icon" href="favicon.ico">
+	
+	<title>Super Smash Land</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body lang="en">
+	<div id="container">
+		<header>
+			<h1>Super Smash Land</h1>
+		</header>
+		
+		<div id="wrapper" class="clearfix">
+			<section id="info">
+				<section>
+				
+					<h2 class="download">Start Playing Now</h2>
+					<a class="game_dl" href="SmashLand-Final-1-1.zip">Download</a>
+                    <!--<a class="game_dl" href="http://geek.pikimal.com/2011/09/14/super-smash-land-releases-today-on-piki-geek/">Download</a>-->
+					<!--<a class="highscores" href="/scores">See The High Scores &gt;&gt;</a>-->
+
+				
+					<iframe width="540" height="304" src="http://www.youtube.com/embed/351CO5_8fbM" frameborder="0" allowfullscreen=""></iframe>
+					
+					<figure>
+						<img src="imgs/screenshot1.png" height="234" width="260" alt="Smashland Screenshot 1" style="margin-right:15px;margin-bottom:15px;display:inline-block;width:260px;">
+						<img src="imgs/screenshot2.png" height="234" width="260" alt="Smashland Screenshot 2" style="margin-bottom:15px;display:inline-block;width:260px;">
+						<img src="imgs/screenshot3.png" height="234" width="260" alt="Smashland Screenshot 3" style="margin-right:15px;margin-bottom:15px;display:inline-block;width:260px;">
+						<img src="imgs/screenshot4.png" height="234" width="260" alt="Smashland Screenshot 4" style="margin-bottom:15px;display:inline-block;width:260px;">
+					</figure>
+					
+					<!--<h3 class="donateTxt">Super Smash Land Will Always Be Free. Be Kind And Help Those who labored over this for the fans.</h3>
+<form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>--><!-- Commenting out the Donate because I don't think its necessary-->
+					
+					<h2 class="coverage">Coverage</h2>
+					<section class="imgLinks">
+							<a href="http://www.facebook.com/supersmashland">
+		<img src="imgs/coverage/news7_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://pc.ign.com/articles/119/1194416p1.html">
+		<img src="imgs/coverage/news1_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://www.youtube.com/user/SuperSmashLandGame">
+		<img src="imgs/coverage/news6_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://stacksmash.kontek.net/?p=14086">
+		<img src="imgs/coverage/news5_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://www.smashboards.com/showthread.php?t=287614">
+		<img src="imgs/coverage/news2_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://houseofwoo.wordpress.com/2011/09/23/supersmashland/">
+		<img src="imgs/coverage/news8_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://smashfightgenesis.forumotion.com/t58-super-smash-land-tier-lists">
+		<img src="imgs/coverage/news9_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://www.rgcd.co.uk/2011/09/super-smash-land-pc.html">
+		<img src="imgs/coverage/news10_up.png" alt="super smash land">
+	</a>
+
+					</section>
+					
+					<h2 class="videos">Videos</h2>
+					<section class="imgLinks">
+							<a href="http://www.youtube.com/watch?v=wGSDf5Bc2PE">
+		<img src="imgs/coverage/vid1_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://www.youtube.com/watch?v=p0XRlXyVYQM">
+		<img src="imgs/coverage/vid2_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://www.youtube.com/watch?v=Fr9QJelqFtY">
+		<img src="imgs/coverage/vid3_up.png" alt="super smash land">
+	</a>
+
+	<a href="http://www.youtube.com/watch?v=4U4PZEoPlZc">
+		<img src="imgs/coverage/vid4_up.png" alt="super smash land">
+	</a>
+
+					</section>
+
+				
+				</section>
+				
+				<aside>
+					<h1>An Epic Demake of the classic Super Smash Bros</h1>
+					<p>
+						Welcome! I am <a href="https://twitter.com/danfornace"> Dan Fornace</a>, the artist and programmer on this fan-project. For years, I have loved the Smash Brothers series and its simple yet deep gameplay. As an artist, I have tried many times to pay homage to one of my favorite games. Now here you find my latest and greatest attempt, Super Smash Land.
+					</p>
+					<p>
+Super Smash Land is a free to play PC Game that is designed to look and feel like it is being played on the original Nintendo Gameboy. I have simplified the experience while keeping the characters and features you are used to along with my own creative decisions.
+					</p>
+<p>
+Trying it out is easy enough; grab it for your PC with the link to left. The [Arrow Keys] are the default movement keys while [Z] is A and [X] is B and [Enter] is Start. Controls can be changed in the Options Menu. For all you mac players, you may be able to play the game using Wine. A mac build is very possible for the future.
+</p>
+					
+					<h2 class="soundtrack">Sound Track</h2>
+					<a class="sound_dl" href="http://inversephase.bandcamp.com/album/super-smash-land-ost">Download Soundtrack</a>
+					<p>
+						Hello. I am Brendan Becker, known to the music world as <a href="http://inversephase.bandcamp.com/">Inversephase</a>, and I am responsible for the Audio in Super Smash Land. Dan originally planned to find suitable (existing) gameboy tracks and sound effects and adapt them for use in Super Smash Land, but he quickly realized Super Smash Land needed a soundtrack and feel all its own. I was commissioned to write new music arrangements and sound effects completely from scratch to give the game a more cohesive feel.
+					</p>
+					
+					<h2 class="hiddentracks">Hidden Tracks</h2>
+					<a class="hidden_dl" href="http://music.flashygoodness.com/album/super-smash-land-hidden-tracks">Download Hidden Tracksk</a>
+					<p>
+						Hi there. I am <a href="http://flashygoodness.com/">flashygoodness</a>, and I'm responsible for the music in most of the hidden stages, the victory screens, and the release trailer. I was originally brought onto the project to remix a single track from <a href="http://www.newgrounds.com/portal/view/544332">Tower of Heaven</a>, a game which I composed for. But since I enjoyed Smash Land so much, I ended up doing a lot of additional songs for the project so that every stage would have a unique theme.
+				</p></aside>
+			</section>
+		</div>
+		<div class="push"></div>
+	</div>
+	<footer>
+		<h5>
+			© 2011 Dan Fornace. <br> This project is not associated with Nintendo or other rights holders. <br> <br>
+			Contributors <br>
+			<a href="http://danfornace.com/">Dan Fornace</a> | 
+			<a href="http://www.inversephase.bandcamp.com/">Inversephase</a> | 
+			<a href="http://mttdffy.com/">Matt Duffy</a> |
+			<a href="http://www.flashygoodness.com/">Flashygoodness</a><br>
+			PikiGeek | 
+			<a href="http://www.smashboards.com/">SmashBoards</a> | 
+			<a href="http://www.nintendo.com/">Nintendo</a> | 
+                        <a href="http://yoyogames.com/gamemaker/windows">Game Maker</a> |
+			Jake Nichols | 
+			<a href="http://askiisoft.com/">Askii Soft</a>
+<br>
+		</h5>
+	</footer>
+
+
+</body></html>
